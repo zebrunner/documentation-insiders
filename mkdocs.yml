@@ -21,6 +21,8 @@ theme:
   name: 'material'
   favicon: 'assets/images/favicon.ico'
   logo: 'assets/images/logo.svg'
+  font:
+    text: Kumbh Sans
   features:
     - navigation.expand
     - tabs
