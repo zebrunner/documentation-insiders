@@ -22,7 +22,7 @@ theme:
   favicon: 'assets/images/favicon.ico'
   logo: 'assets/images/logo.svg'
   font:
-    text: Kumbh Sans
+    text: Open Sans
   features:
     - navigation.expand
     - tabs
