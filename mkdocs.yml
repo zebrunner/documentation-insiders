@@ -17,6 +17,11 @@ nav:
     - Test sessions: guide/test_sessions.md
     - User management: guide/user_management.md
     - Integrations: guide/integrations.md
+extra_css:
+    - css/extra.css
+markdown_extensions:
+  - toc:
+      toc_depth: 1-1
 theme:
   name: 'material'
   favicon: 'assets/images/favicon.ico'
