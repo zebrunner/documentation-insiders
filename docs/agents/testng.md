@@ -22,7 +22,7 @@ Agent comes bundled with TestNG 7.1.0, so you may want to comment our your depen
     dependencies {
       testImplementation 'com.zebrunner:agent-testng:1.0.0'
     }
-```
+    ```
 
 ### Step 2: Configure agent
 
@@ -34,5 +34,7 @@ There are multiple ways to provide agent configuration:
 * Properties file
 
 !!! note ""
-    Configuration lookup will be performed in order listed above, meaning that environment configuration will always take precedence over YAML and so on. It is also possible to override configuration parameters by supplying them via configuration provider having higher precedence. Once configuration is in place agent is ready to track you test run events, no additional configuration required.
+    Configuration lookup will be performed in order listed above, meaning that environment configuration will always take precedence over YAML and so on. 
+    It is also possible to override configuration parameters by supplying them via configuration provider having higher precedence. 
+    Once configuration is in place agent is ready to track you test run events, no additional configuration required.
 
