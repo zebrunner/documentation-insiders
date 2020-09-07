@@ -18,7 +18,7 @@ nav:
     - User management: guide/user_management.md
     - Integrations: guide/integrations.md
   - Agents:
-    - TestNG: agents/agent_testng.md
+    - TestNG: agents/testng.md
 extra_css:
     - css/extra.css
 markdown_extensions:
