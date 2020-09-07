@@ -22,7 +22,7 @@ theme:
   favicon: 'assets/images/favicon.ico'
   logo: 'assets/images/logo.svg'
   font:
-    text: Open Sans
+    text: Source Code Pro
   features:
     - navigation.expand
     - tabs
