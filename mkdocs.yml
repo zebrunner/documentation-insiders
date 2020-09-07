@@ -22,6 +22,7 @@ nav:
 extra_css:
     - css/extra.css
 markdown_extensions:
+  - pymdownx.tabbed
   - toc:
       toc_depth: 1-1
 theme:
