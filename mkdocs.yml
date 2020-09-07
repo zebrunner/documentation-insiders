@@ -21,8 +21,9 @@ theme:
   name: 'material'
   favicon: 'assets/images/favicon.ico'
   logo: 'assets/images/logo.svg'
-  feature:
-    tabs: true
+  features:
+    - navigation.expand
+    - tabs
   palette:
     - scheme: default
       primary: indigo
