@@ -8,21 +8,21 @@ Agent comes bundled with TestNG 7.1.0, so you may want to comment our your depen
 
 === "Maven"
 
-    ``` xml
-    <dependency>
-      <groupId>com.zebrunner</groupId>
-      <artifactId>agent-testng</artifactId>
-      <version>1.0.0</version>
-    </dependency>
-    ```
+```xml
+<dependency>
+  <groupId>com.zebrunner</groupId>
+  <artifactId>agent-testng</artifactId>
+  <version>1.0.0</version>
+</dependency>
+```
 
 === "Gradle"
 
-    ``` gradle
-    dependencies {
-      testImplementation 'com.zebrunner:agent-testng:1.0.0'
-    }
-    ```
+```gradle
+dependencies {
+  testImplementation 'com.zebrunner:agent-testng:1.0.0'
+}
+```
 
 ## Step 2: Configure agent
 
