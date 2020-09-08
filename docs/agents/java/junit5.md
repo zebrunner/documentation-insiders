@@ -1,4 +1,4 @@
-# JUnit agent
+# JUnit5 agent
 
 !!! note ""
     Agent supports JUnit version starting from 5.0.0 
