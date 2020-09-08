@@ -75,7 +75,7 @@ There are multiple ways to provide agent configuration:
     ```
     
 !!! note ""
-    Access token and hostname are available in [User profile](../../guide/user_profile.md). Configuration files `agent.yaml` or `agent.properties` should be placed into proect resources folder.
+    Access token and hostname are available in [User profile](../../guide/user_profile.md). Configuration files `agent.yaml` or `agent.properties` should be placed into project resource folder.
 
 ## Step 3: Advanced reporting
 
