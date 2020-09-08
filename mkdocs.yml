@@ -35,6 +35,7 @@ markdown_extensions:
   - admonition
   - pymdownx.tabbed
   - pymdownx.superfences
+  - tabs
   - toc:
       toc_depth: 1-1
 theme:
