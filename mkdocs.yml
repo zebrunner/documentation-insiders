@@ -10,9 +10,9 @@ nav:
     - Components overview: components_overview.md
   - Agents:
     - Java:
-      - TestNG: agents/java/testng.md
-      - JUnit: agents/java/junit.md
-      - JUnit5: agents/java/junit5.md
+      - TestNG agent: agents/java/testng.md
+      - JUnit agent: agents/java/junit.md
+      - JUnit5 agent: agents/java/junit5.md
       - Advanced reporting: agents/java/advanced.md
     - JavaScript:
       - Jest: agents/javascript/jest.md
