@@ -1,8 +1,8 @@
-# Zebrunner TestNG (7.0.0+) agent
+# TestNG (7.0.0+) agent
 
 Official Zebrunner TestNG agent providing reporting and smart reruns functionality. In order to enable Zebrunner Listener for TestNG no special configuration is required - service discovery mechanism will automatically register listener once it will be availlable on your test application classpath.
 
-## Step1: Add project dependency
+**Step1: Add project dependency**
 
 Agent comes bundled with TestNG 7.1.0, so you may want to comment our your dependency or exclude it from agent.
 
@@ -24,7 +24,7 @@ Agent comes bundled with TestNG 7.1.0, so you may want to comment our your depen
     }
     ```
 
-## Step 2: Configure agent
+**Step 2: Configure agent**
 
 There are multiple ways to provide agent configuration:
 
