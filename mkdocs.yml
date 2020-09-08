@@ -18,7 +18,17 @@ nav:
     - User management: guide/user_management.md
     - Integrations: guide/integrations.md
   - Agents:
-    - TestNG: agents/testng.md
+    - Java:
+      - TestNG: agents/java/testng.md
+      - JUnit: agents/java/junit.md
+      - JUnit5: agents/java/junit5.md 
+    - JavaScript:
+      - Jest: agents/javascript/jest.md
+      - Jasmine: agents/javascript/jasmine.md
+    - Python:
+      - Pytest: agents/python/pytest.md 
+    - Ruby:
+      - Rspec: agents/ruby/rspec.md 
 extra_css:
     - css/extra.css
 markdown_extensions:
