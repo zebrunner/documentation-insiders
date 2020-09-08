@@ -35,7 +35,6 @@ markdown_extensions:
   - admonition
   - pymdownx.tabbed
   - pymdownx.superfences
-  - tabs
   - toc:
       toc_depth: 1-1
 theme:
@@ -46,5 +45,6 @@ theme:
     text: Roboto
   features:
     - navigation.expand
+    - tabs
   palette:
     primary: black
