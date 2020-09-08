@@ -43,7 +43,7 @@ theme:
   favicon: 'assets/images/favicon.ico'
   logo: 'assets/images/logo.svg'
   font:
-    text: Roboto
+    text: Roboto Mono
   features:
     - tabs
   palette:
