@@ -27,6 +27,7 @@ Agent comes bundled with TestNG 7.1.0, so you may want to comment our your depen
 ## Step 2: Configure agent
 
 There are multiple ways to provide agent configuration:
+
 * Environment variables
 * Program arguments
 * YAML file
