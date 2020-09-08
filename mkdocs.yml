@@ -32,7 +32,7 @@ theme:
   favicon: 'assets/images/favicon.ico'
   logo: 'assets/images/logo.svg'
   font:
-    text: Open Sans
+    text: Roboto
   features:
     - navigation.expand
   palette:
