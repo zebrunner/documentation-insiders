@@ -40,7 +40,7 @@ There are multiple ways to provide agent configuration:
     Configuration lookup will be performed in order listed above, meaning that environment configuration will always take precedence over YAML and so on. It is also possible to override configuration parameters by supplying them via configuration provider having higher precedence. Once configuration is in place agent is ready to track you test run events, no additional configuration required.
  
 
-=== "Env variables"
+=== "Environment variables"
 
     ``` properties
     REPORTING_ENABLED=true
@@ -75,12 +75,12 @@ There are multiple ways to provide agent configuration:
     ```
     
 !!! note ""
-    Access token should be generated in [User profile](../../guide/user_profile.md). Configuration files `agent.yaml` or `agent.properties` should be placed into proect resources folder.
+    Access token and hostname are available in [User profile](../../guide/user_profile.md). Configuration files `agent.yaml` or `agent.properties` should be placed into proect resources folder.
 
 ## Step 3: Advanced reporting
 
 Read the following docs to enabled advanced reporting features:
 
-* Configure loggers
-* Capture screenshots
-* Track test ownership
+* [Configure loggers](advanced.md#loggers)
+* [Capture screenshots](advanced.md#screenshots)
+* [Track test ownership](advanced.md#ownership)
