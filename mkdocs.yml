@@ -38,6 +38,7 @@ markdown_extensions:
   - pymdownx.superfences
   - toc:
       toc_depth: 1-1
+      permalink: 
 theme:
   name: 'material'
   favicon: 'assets/images/favicon.ico'
