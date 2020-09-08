@@ -8,27 +8,27 @@ nav:
   - Getting started:
     - Registration: registration.md
     - Components overview: components_overview.md
-    - Agents:
-      - Java:
-        - TestNG: agents/java/testng.md
-        - JUnit: agents/java/junit.md
-        - JUnit5: agents/java/junit5.md 
-      - JavaScript:
-        - Jest: agents/javascript/jest.md
-        - Jasmine: agents/javascript/jasmine.md
-      - Python:
-        - Pytest: agents/python/pytest.md 
-      - Ruby:
-        - Rspec: agents/ruby/rspec.md
-   - User guide:
-     - User profile: guide/user_profile.md
-     - Dashboards: guide/dashboards.md
-     - Widgets: guide/widgets.md
-     - Projects: guide/projects.md
-     - Test runs: guide/test_runs.md
-     - Test sessions: guide/test_sessions.md
-     - User management: guide/user_management.md
-     - Integrations: guide/integrations.md
+  - Agents:
+    - Java:
+      - TestNG: agents/java/testng.md
+      - JUnit: agents/java/junit.md
+      - JUnit5: agents/java/junit5.md 
+    - JavaScript:
+      - Jest: agents/javascript/jest.md
+      - Jasmine: agents/javascript/jasmine.md
+    - Python:
+      - Pytest: agents/python/pytest.md 
+    - Ruby:
+      - Rspec: agents/ruby/rspec.md
+ - User guide:
+   - User profile: guide/user_profile.md
+   - Dashboards: guide/dashboards.md
+   - Widgets: guide/widgets.md
+   - Projects: guide/projects.md
+   - Test runs: guide/test_runs.md
+   - Test sessions: guide/test_sessions.md
+   - User management: guide/user_management.md
+   - Integrations: guide/integrations.md
 extra_css:
     - css/extra.css
 markdown_extensions:
