@@ -13,7 +13,7 @@ nav:
       - TestNG: agents/java/testng.md
       - JUnit: agents/java/junit.md
       - JUnit5: agents/java/junit5.md
-      - Advanced features: agents/java/advanced.md
+      - Advanced reporting: agents/java/advanced.md
     - JavaScript:
       - Jest: agents/javascript/jest.md
       - Jasmine: agents/javascript/jasmine.md
