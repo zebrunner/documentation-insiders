@@ -44,7 +44,6 @@ theme:
   font:
     text: Roboto
   features:
-    - navigation.expand
     - tabs
   palette:
     primary: black
