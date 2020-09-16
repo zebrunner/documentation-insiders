@@ -44,7 +44,5 @@ theme:
   logo: 'assets/images/logo.svg'
   font:
     text: Roboto
-  features:
-    - tabs
   palette:
     primary: black
