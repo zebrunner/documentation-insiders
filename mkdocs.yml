@@ -45,4 +45,6 @@ theme:
   font:
     text: Roboto
   palette:
-    primary: black
+    primary: white
+  features:
+    - navigation.expand
