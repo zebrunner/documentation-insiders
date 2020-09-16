@@ -1,0 +1,921 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.ico">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-5.5.12+insiders-1.4.1">
+    
+    
+      
+        <title>Dashboards - Zebrunner</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.30cf4222.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.674aa776.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#ffffff">
+        
+      
+    
+    
+    
+      
+        
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7C&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="../../css/extra.css">
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="white" data-md-color-accent="">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#dashboards" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="../.." title="Zebrunner" class="md-header-nav__button md-logo" aria-label="Zebrunner">
+      
+  <img src="../../assets/images/logo.svg" alt="logo">
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            Zebrunner
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              Dashboards
+            
+          </span>
+        </div>
+      
+    </div>
+    <div class="md-header-nav__options">
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active">
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+        
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Zebrunner" class="md-nav__button md-logo" aria-label="Zebrunner">
+      
+  <img src="../../assets/images/logo.svg" alt="logo">
+
+    </a>
+    Zebrunner
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="Overview" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
+    
+    <label class="md-nav__link" for="nav-2">
+      Getting started
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Getting started" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        <span class="md-nav__icon md-icon"></span>
+        Getting started
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../registration/" title="Registration" class="md-nav__link">
+      Registration
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../components_overview/" title="Components overview" class="md-nav__link">
+      Components overview
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
+    
+    <label class="md-nav__link" for="nav-3">
+      Agents
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Agents" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        <span class="md-nav__icon md-icon"></span>
+        Agents
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="nav-3-1" type="checkbox" id="nav-3-1" checked>
+    
+    <label class="md-nav__link" for="nav-3-1">
+      Java
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Java" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-1">
+        <span class="md-nav__icon md-icon"></span>
+        Java
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../agents/java/testng/" title="TestNG agent" class="md-nav__link">
+      TestNG agent
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../agents/java/junit/" title="JUnit agent" class="md-nav__link">
+      JUnit agent
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../agents/java/junit5/" title="JUnit5 agent" class="md-nav__link">
+      JUnit5 agent
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../agents/java/advanced/" title="Advanced reporting" class="md-nav__link">
+      Advanced reporting
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="nav-3-2" type="checkbox" id="nav-3-2" checked>
+    
+    <label class="md-nav__link" for="nav-3-2">
+      JavaScript
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="JavaScript" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-2">
+        <span class="md-nav__icon md-icon"></span>
+        JavaScript
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../agents/javascript/jest/" title="Jest" class="md-nav__link">
+      Jest
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../agents/javascript/jasmine/" title="Jasmine" class="md-nav__link">
+      Jasmine
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="nav-3-3" type="checkbox" id="nav-3-3" checked>
+    
+    <label class="md-nav__link" for="nav-3-3">
+      Python
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Python" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-3">
+        <span class="md-nav__icon md-icon"></span>
+        Python
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../agents/python/pytest/" title="Pytest" class="md-nav__link">
+      Pytest
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="nav-3-4" type="checkbox" id="nav-3-4" checked>
+    
+    <label class="md-nav__link" for="nav-3-4">
+      Ruby
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Ruby" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-4">
+        <span class="md-nav__icon md-icon"></span>
+        Ruby
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../agents/ruby/rspec/" title="Rspec" class="md-nav__link">
+      Rspec
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" checked>
+    
+    <label class="md-nav__link" for="nav-4">
+      User guide
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="User guide" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        <span class="md-nav__icon md-icon"></span>
+        User guide
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../user_profile/" title="User profile" class="md-nav__link">
+      User profile
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Dashboards
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
+    <a href="./" title="Dashboards" class="md-nav__link md-nav__link--active">
+      Dashboards
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#create-dashboard" class="md-nav__link">
+    Create dashboard
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#edit-dashboard" class="md-nav__link">
+    Edit dashboard
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hidden-dashboards" class="md-nav__link">
+    Hidden dashboards
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#delete-dashboard" class="md-nav__link">
+    Delete dashboard
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#send-dashboard-via-email" class="md-nav__link">
+    Send dashboard via email
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#search-for-dashboard" class="md-nav__link">
+    Search for dashboard
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#change-the-order-of-dashboards" class="md-nav__link">
+    Change the order of dashboards
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../widgets/" title="Widgets" class="md-nav__link">
+      Widgets
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../projects/" title="Projects" class="md-nav__link">
+      Projects
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../test_runs/" title="Test runs" class="md-nav__link">
+      Test runs
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../test_sessions/" title="Test sessions" class="md-nav__link">
+      Test sessions
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../user_management/" title="User management" class="md-nav__link">
+      User management
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../integrations/" title="Integrations" class="md-nav__link">
+      Integrations
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#create-dashboard" class="md-nav__link">
+    Create dashboard
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#edit-dashboard" class="md-nav__link">
+    Edit dashboard
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hidden-dashboards" class="md-nav__link">
+    Hidden dashboards
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#delete-dashboard" class="md-nav__link">
+    Delete dashboard
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#send-dashboard-via-email" class="md-nav__link">
+    Send dashboard via email
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#search-for-dashboard" class="md-nav__link">
+    Search for dashboard
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#change-the-order-of-dashboards" class="md-nav__link">
+    Change the order of dashboards
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                  
+                
+                
+                <h1 id="dashboards">Dashboards<a class="headerlink" href="#dashboards" title="Permanent link">&para;</a></h1>
+<p>Dashboard in Zebrunner is a special page that displays widgets with main analytical info on your test results.</p>
+<p>A system <strong>General</strong> dashboard is displayed when you open Zebrunner (or press <img alt="Zebrunner" src="https://github.com/zebrunner/documentation/blob/master/docs/assets/images/zebrunner_icon.png?raw=true" /> in the upper-left corner of the window). General is not editable – you cannot change its name, make it hidden, delete it or add widgets.</p>
+<p>In addition to General, you can create other dashboards to systemize widgets according to your needs.</p>
+<p><strong>What can you do with dashboards?</strong></p>
+<ul>
+<li>Create Dashboards</li>
+<li>Edit Dashboards</li>
+<li>Make Dashboards Hidden</li>
+<li>Delete Dashboards</li>
+<li>Send Dashboards via email</li>
+<li>Search for Dashboards by name</li>
+<li>Change order of dashboards</li>
+</ul>
+<h2 id="create-dashboard">Create dashboard<a class="headerlink" href="#create-dashboard" title="Permanent link">&para;</a></h2>
+<p>To create a new dashboard, perform the following steps:</p>
+<ol>
+<li>Navigate to the side menu and click the <strong>“Dashboards”</strong> icon <img alt="Dashboards" src="https://github.com/zebrunner/documentation/blob/master/docs/assets/images/dashboards_icon.png?raw=true" />. Then press the <strong>“+Add dashboard"</strong> button. </li>
+<li>The <strong>“New Dashboard”</strong> popup will appear.</li>
+<li>Enter a name of a new dashboard.</li>
+<li>Click <strong>"Create"</strong>.</li>
+</ol>
+<p>Now you can add widgets to the new dashboard.</p>
+<p><img alt="Create Dashboard" src="https://github.com/zebrunner/documentation/blob/master/docs/assets/images/create_dashboard.gif?raw=true" /></p>
+<h2 id="edit-dashboard">Edit dashboard<a class="headerlink" href="#edit-dashboard" title="Permanent link">&para;</a></h2>
+<p>To edit a dashboard, perform the following steps:</p>
+<ol>
+<li>Navigate to the side menu and click the <strong>“Dashboards”</strong> icon <img alt="Dashboards" src="https://github.com/zebrunner/documentation/blob/master/docs/assets/images/dashboards_icon.png?raw=true" />. Choose the necessary dashboard.</li>
+<li>Click <img alt="Edit Dashboard" src="https://github.com/zebrunner/documentation/blob/master/docs/assets/images/edit_dashboard_icon.png?raw=true" /> in the upper-right corner of the window.</li>
+<li>The <strong>“Edit Dashboard”</strong> popup will appear.</li>
+<li>Make the necessary changes to the dashboard (except for General): edit the name of the dashboard; make the dashboard visible or hidden by clicking the <strong>“Hidden”</strong> switch (only if you have the <strong>“View hidden dashboards”</strong> permission)(read more <a href="https://zebrunner.github.io/documentation/guide/dashboards/#hidden-dashboards">here</a>).</li>
+<li>Click <strong>“Save”</strong>.</li>
+</ol>
+<p>The dashboard will be displayed with updates.</p>
+<p><img alt="Edit Dashboard" src="https://github.com/zebrunner/documentation/blob/master/docs/assets/images/edit_dashboard.png?raw=true" /> </p>
+<p><strong>Optional:</strong> If you have <strong>“Modify widgets”</strong> and <strong>“Modify dashboards”</strong> permissions, you can edit a dashboard by applying a certain parameter to all the widgets on a dashboard (instead of setting it for each widget manually).</p>
+<p>For example, you want to see your test results on a dashboard for the API platform only.</p>
+<p>For this, perform the following steps:</p>
+<ol>
+<li>After the <strong>“Edit Dashboard”</strong> popup appears, enter the parameter <strong>“PLATFORM”</strong> (in uppercase) to the <strong>“Key”</strong> field and <strong>“api”</strong> (in lowercase) to the <strong>“Value”</strong> field.</li>
+<li>Click <strong>“Add”</strong> and <strong>“Save”</strong>.</li>
+<li>Refresh the page.</li>
+</ol>
+<p>The dashboard will be displayed with updates.</p>
+<p><strong>Note:</strong> You can apply several parameters (keys) to a dashboard. But you can add only 1 value to a parameter.</p>
+<p><img alt="Key and Value" src="https://github.com/zebrunner/documentation/blob/master/docs/assets/images/key_and_value.png?raw=true" /></p>
+<h2 id="hidden-dashboards">Hidden dashboards<a class="headerlink" href="#hidden-dashboards" title="Permanent link">&para;</a></h2>
+<p>Dashboards in Zebrunner can be visible or hidden.</p>
+<p>Hidden dashboards are useful when:</p>
+<ul>
+<li>You need to test and adjust experimental widgets to a dashboard;</li>
+<li>You want to track your automation team performance on a special dashboard;</li>
+<li>You’d like to hide a dashboard from other users.</li>
+</ul>
+<p><strong>Note:</strong> You need the <strong>“View hidden dashboards”</strong> permission to make a dashboard hidden. Otherwise, you will not see this option.</p>
+<p>To make a dashboard hidden, open <strong>“New dashboard”</strong> or <strong>“Edit dashboard”</strong> popup and turn on the switch <strong>“Hidden”</strong>.</p>
+<p><img alt="Hidden Dashboards" src="https://github.com/zebrunner/documentation/blob/master/docs/assets/images/hidden_dashboard.png?raw=true" /></p>
+<h2 id="delete-dashboard">Delete dashboard<a class="headerlink" href="#delete-dashboard" title="Permanent link">&para;</a></h2>
+<p>To delete a dashboard, perform the following steps:</p>
+<ol>
+<li>Navigate to the side menu and click the <strong>“Dashboards”</strong> icon <img alt="Dashboards" src="https://github.com/zebrunner/documentation/blob/master/docs/assets/images/dashboards_icon.png?raw=true" />. Choose the necessary dashboard.</li>
+<li>Click <img alt="Delete Dashboard" src="https://github.com/zebrunner/documentation/blob/master/docs/assets/images/edit_dashboard_icon.png?raw=true" /> in the upper-right corner of the window.</li>
+<li>The <strong>“Edit Dashboard”</strong> popup will appear.</li>
+<li>Press <strong>“Delete”.</strong></li>
+<li>Submit the action.</li>
+</ol>
+<p>The dashboard and attached widgets will be removed.</p>
+<p><strong>Note:</strong> You cannot delete the General dashboard.</p>
+<p><img alt="Delete Dashboard" src="https://github.com/zebrunner/documentation/blob/master/docs/assets/images/delete_dashboard.png?raw=true" /></p>
+<h2 id="send-dashboard-via-email">Send dashboard via email<a class="headerlink" href="#send-dashboard-via-email" title="Permanent link">&para;</a></h2>
+<p>To send a dashboard via email, perform the following steps:</p>
+<ol>
+<li>Navigate to the side menu and click the <strong>“Dashboards”</strong> icon <img alt="Dashboards" src="https://github.com/zebrunner/documentation/blob/master/docs/assets/images/dashboards_icon.png?raw=true" />. Choose the necessary dashboard.</li>
+<li>Click <img alt="Send by Email" src="https://github.com/zebrunner/documentation/blob/master/docs/assets/images/send_dashboard_by_email_icon.png?raw=true" /> in the upper-right corner of the window.</li>
+<li>The <strong>“Email”</strong> popup will appear.</li>
+<li>The <strong>“Name”</strong> and <strong>“Text”</strong> fields are filled by default, still you can change them.</li>
+<li>Fill in the <strong>“Recipients”</strong> field (unlimited number of emails per time).</li>
+<li>Press the <strong>“Send”</strong> button.</li>
+</ol>
+<p>A popup message <strong>“Email was successfully sent”</strong> will appear in the lower-right corner of the window.</p>
+<p><img alt="Send Dashboard via Email" src="https://github.com/zebrunner/documentation/blob/master/docs/assets/images/send_dashboard_via_email.png?raw=true" /></p>
+<h2 id="search-for-dashboard">Search for dashboard<a class="headerlink" href="#search-for-dashboard" title="Permanent link">&para;</a></h2>
+<p>To search for a dashboard, perform the following steps:</p>
+<ol>
+<li>Navigate to the side menu and click the <strong>“Dashboards”</strong> icon <img alt="Dashboards" src="https://github.com/zebrunner/documentation/blob/master/docs/assets/images/dashboards_icon.png?raw=true" />.</li>
+<li>Go to the <strong>“Search”</strong> field and enter the name/part of the name of a dashboard.</li>
+<li>Choose the necessary dashboard.</li>
+</ol>
+<p><img alt="Search for Dashboard" src="https://github.com/zebrunner/documentation/blob/master/docs/assets/images/search_for_dashboard.gif?raw=true" /></p>
+<h2 id="change-the-order-of-dashboards">Change the order of dashboards<a class="headerlink" href="#change-the-order-of-dashboards" title="Permanent link">&para;</a></h2>
+<p>To change the order of dashboards, perform the following steps:</p>
+<ol>
+<li>Navigate to the side menu and click the <strong>“Dashboards”</strong> icon <img alt="Dashboards" src="https://github.com/zebrunner/documentation/blob/master/docs/assets/images/dashboards_icon.png?raw=true" />.</li>
+<li>Grab a dashboard with a hand cursor by clicking <img alt="Change the order" src="https://github.com/zebrunner/documentation/blob/master/docs/assets/images/icon_six_dot.png?raw=true" />.</li>
+<li>Drag and drop the chosen dashboard to the necessary place.</li>
+</ol>
+<p>Dashboards will be displayed in a new order.</p>
+<p><img alt="Change the Order of Dashboards" src="https://github.com/zebrunner/documentation/blob/master/docs/assets/images/change_order_of_dashboards.gif?raw=true" /></p>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../user_profile/" title="User profile" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                User profile
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../widgets/" title="Widgets" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Widgets
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material-insiders/" target="_blank" rel="noopener">
+          Material for MkDocs Insiders
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/vendor.47399281.min.js"></script>
+      <script src="../../assets/javascripts/bundle.d562cbe1.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
+      
+      <script>
+        app = initialize({
+          base: "../..",
+          features: ['navigation.expand'],
+          search: Object.assign({
+            worker: "../../assets/javascripts/worker/search.91c205cd.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>
